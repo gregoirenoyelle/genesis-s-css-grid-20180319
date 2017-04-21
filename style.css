@@ -1148,6 +1148,15 @@ img.alignright,
 	text-decoration: underline;
 }
 
+.genesis-nav-menu .current-menu-item > a {
+	background-color: red;
+	color: white;
+}
+
+.genesis-nav-menu .current-menu-item > a:hover {
+	background-color: green;
+}
+
 .genesis-nav-menu .sub-menu {
 	border-top: 1px solid #eee;
 	left: -9999px;
