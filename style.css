@@ -71,6 +71,8 @@
 */
 
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+
 /* # HTML5 Reset
 ---------------------------------------------------------------------------------------------------- */
 
@@ -252,8 +254,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 600;
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: 700;
 	line-height: 1.2;
 	margin: 0 0 10px;
 }
@@ -1068,6 +1070,7 @@ img.alignright,
 	font-size: 3rem;
 	font-weight: 700;
 	line-height: 1.2;
+	font-family: 'Roboto Slab', serif;
 }
 
 .site-title a,
