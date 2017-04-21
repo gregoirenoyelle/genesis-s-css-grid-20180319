@@ -1302,6 +1302,10 @@ p.entry-meta {
 	margin-bottom: 0;
 }
 
+.category-asiatiques .entry-time {
+	display: none;
+}
+
 .entry-header .entry-meta {
 	margin-bottom: 24px;
 }
