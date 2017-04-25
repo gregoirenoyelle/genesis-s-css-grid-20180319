@@ -1318,6 +1318,18 @@ img.alignright,
 	color: #eee;
 }
 
+/* Grille article catégorie */
+.category-restaurants .entry {
+	width: 29.3%;
+	padding: 20px 4%;
+	float: left;
+	margin-right: 4%
+}
+
+.category-restaurants .entry:nth-of-type(3n+3) {
+	margin-right: 0;
+}
+
 /* ## Entry Meta
 --------------------------------------------- */
 
