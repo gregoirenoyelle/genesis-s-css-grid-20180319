@@ -1878,11 +1878,8 @@ p.entry-meta {
 /* version grille */
 
 @supports (display: grid) {
-	.archive-description {
-		display: none;
-	}
-	
-	.content {
+
+	                                                                                     .content {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 20px;
@@ -1891,6 +1888,13 @@ p.entry-meta {
 	.content .entry {
 		width: 100%;
 	}
+	
+	.archive-description {
+		display: none;
+	}	
+	
+	
+
 	
 	@media screen and (max-width: 820px) {
 		.content {
