@@ -1879,7 +1879,7 @@ p.entry-meta {
 
 @supports (display: grid) {
 
-	                                                                                     .content {
+	.archive.category-restaurants .content {                                                                                     .content {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 20px;
