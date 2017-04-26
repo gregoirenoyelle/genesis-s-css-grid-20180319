@@ -825,6 +825,20 @@ th:first-child {
 	color: #c3251d;
 }
 
+.category-asiatiques .entry-title {
+	line-height: 2;
+}
+
+.category-asiatiques .entry-title:before {
+	content: "\f2cd";
+	font-family: "FontAwesome"; 
+	display: inline-block; 
+	margin-right: 10px;
+	font-size: 5rem;
+	color: red;	
+	padding-top: 10px;
+}
+
 .widget-title {
 	font-size: 18px;
 	font-size: 1.8rem;
