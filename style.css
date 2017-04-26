@@ -969,18 +969,25 @@ img.alignright,
 	border-bottom: none;
 }
 
-
 .widget_nav_menu a {
 	display: block;
 	background: #e5dcdc;
 	color: black;
-	padding: 10px 20px;
+	padding: 10px 20px 12px;
 	border-bottom: 4px solid #dcd5d5;
 	text-decoration: none;
 }
 
 .widget_nav_menu a:hover {
 	background: #bdc3bd;
+}
+
+.widget_nav_menu a:before {
+	content: "\f111";
+	font-family: "FontAwesome";
+	display: inline-block;
+	margin-right: 10px;
+	color: red;
 }
 
 
@@ -1183,6 +1190,13 @@ img.alignright,
 	text-decoration: none;
 	display: block;
 	padding: 32px 20px;
+}
+
+.genesis-nav-menu .menu-item-has-children > a:after {
+	content: "\f063";
+	font-family: "FontAwesome";
+	display: inline-block;
+	margin-left: 10px;
 }
 
 .genesis-nav-menu a:hover,
