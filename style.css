@@ -1921,8 +1921,16 @@ p.entry-meta {
 
 	@media screen and (max-width: 800px) {
 
-		#mobile-genesis-nav-primary {
+		.dashicons-menu {
 			grid-row: 5;
+		}
+
+		.dashicons-menu.activated {
+			grid-row: 5;
+		}
+
+		.nav-primary {
+			grid-row: 6;
 		}
 	}
 
