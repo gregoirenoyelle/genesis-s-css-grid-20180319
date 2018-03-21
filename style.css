@@ -1319,6 +1319,19 @@ img.alignright,
 	color: #eee;
 }
 
+
+/* Style Grille sur les archives */
+
+.archive .entry {
+	width: 31.2%;
+	float: left;
+	margin-right: 3%;
+}
+
+.archive .entry:nth-of-type(3n+3) {
+	margin-right: initial;
+}
+
 /* ## Entry Meta
 --------------------------------------------- */
 
