@@ -1883,6 +1883,12 @@ p.entry-meta {
 		width: initial;
 		margin: initial;
 	}
+
+	.archive .content {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(39rem, 1fr));
+		grid-gap: 2rem;
+	}
 }
 
 
