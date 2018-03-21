@@ -1868,6 +1868,13 @@ p.entry-meta {
 		width: 100%;
 	}
 
+	.archive .entry {
+		width: initial;
+		float: initial;
+		margin-right: initial;
+		padding: 70px 80px;
+	}	
+
 }
 
 
