@@ -1885,7 +1885,7 @@ p.entry-meta {
 		margin: initial;
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 10rem auto;
+		align-items: stretch;
 	}
 
 	.archive .entry:before,
@@ -1904,6 +1904,15 @@ p.entry-meta {
 	.archive-pagination {
 		grid-column: 1 / -1;
 		margin: initial;
+	}
+
+
+	@media screen and (max-width: 1340px) {
+
+		.archive .entry .entry-header {
+			grid-row-start: 3; 
+		}
+
 	}
 
 }
