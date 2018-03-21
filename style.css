@@ -1879,15 +1879,23 @@ p.entry-meta {
 
 
 @supports (grid-area: auto) {
+
 	.archive .entry {
 		width: initial;
 		margin: initial;
 	}
 
-	.archive .content {
+	.archive .content {	 
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(39rem, 1fr));
 		grid-gap: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.archive-description,
+	.archive-pagination {
+		grid-column: 1 / -1;
+		margin: initial;
 	}
 }
 
