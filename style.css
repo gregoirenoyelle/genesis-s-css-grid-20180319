@@ -1883,6 +1883,12 @@ p.entry-meta {
 	.archive .entry {
 		width: initial;
 		margin: initial;
+		display: grid;
+	}
+
+	.archive .entry:before,
+	.archive .entry:after { 
+		display:none;
 	}
 
 	.archive .content {	 
@@ -1897,6 +1903,7 @@ p.entry-meta {
 		grid-column: 1 / -1;
 		margin: initial;
 	}
+
 }
 
 
