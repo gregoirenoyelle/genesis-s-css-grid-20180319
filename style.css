@@ -1878,6 +1878,14 @@ p.entry-meta {
 }
 
 
+@supports (grid-area: auto) {
+	.archive .entry {
+		width: initial;
+		margin: initial;
+	}
+}
+
+
 /* # Print Styles
 ---------------------------------------------------------------------------------------------------- */
 
