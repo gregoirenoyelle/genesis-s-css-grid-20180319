@@ -1884,6 +1884,23 @@ p.entry-meta {
 		display: grid;
 	}
 
+	.title-area {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.site-title {
+		justify-self: end;
+		padding-right: 1rem;
+		align-self: center;
+	}
+
+	.site-description {
+		justify-self: start;
+		padding-left: 1rem;
+		align-self: center;
+	}
+
 	.archive .entry {
 		width: initial;
 		margin: initial;
@@ -1920,6 +1937,16 @@ p.entry-meta {
 	}
 
 	@media screen and (max-width: 800px) {
+
+		.title-area {
+			grid-template-columns: 1fr;
+		}
+		
+		.site-title,
+		.site-description {
+			justify-self: center;
+			padding: initial;
+		}
 
 		.dashicons-menu {
 			grid-row: 5;
