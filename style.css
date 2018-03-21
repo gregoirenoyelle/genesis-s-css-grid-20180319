@@ -1880,6 +1880,10 @@ p.entry-meta {
 
 @supports (grid-area: auto) {
 
+	.site-container {
+		display: grid;
+	}
+
 	.archive .entry {
 		width: initial;
 		margin: initial;
@@ -1910,9 +1914,16 @@ p.entry-meta {
 	@media screen and (max-width: 1340px) {
 
 		.archive .entry .entry-header {
-			grid-row-start: 3; 
+			grid-row-start: 2; 
 		}
 
+	}
+
+	@media screen and (max-width: 800px) {
+
+		#mobile-genesis-nav-primary {
+			grid-row: 5;
+		}
 	}
 
 }
