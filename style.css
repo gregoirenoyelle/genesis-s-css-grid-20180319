@@ -1326,6 +1326,7 @@ img.alignright,
 	width: 31.2%;
 	float: left;
 	margin-right: 3%;
+	padding: 3rem 4%;
 }
 
 .archive .entry:nth-of-type(3n+3) {
