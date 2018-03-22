@@ -1906,7 +1906,7 @@ p.entry-meta {
 		margin: initial;
 		display: grid;
 		grid-template-columns: 1fr;
-		align-items: stretch;
+		grid-template-rows: min-content;
 	}
 
 	.archive .entry:before,
@@ -1914,7 +1914,7 @@ p.entry-meta {
 		display:none;
 	}
 
-	.archive .content {	 
+	.archive .content {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(39rem, 1fr));
 		grid-gap: 2rem;
