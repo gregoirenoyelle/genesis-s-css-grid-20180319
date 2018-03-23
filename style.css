@@ -1914,6 +1914,11 @@ p.entry-meta {
 		display:none;
 	}
 
+	.archive .entry-footer {
+		align-self: end;
+		text-align: right;
+	}
+
 	.archive .content {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(39rem, 1fr));
